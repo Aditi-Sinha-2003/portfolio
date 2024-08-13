@@ -1,0 +1,277 @@
+body {
+    background-color: rgb(29, 111, 112);
+    color: azure;
+    border: #18191a;
+}
+
+.header {
+    background-color: rgb(139, 225, 233);
+    height: 20%;
+    color: #18191a;
+}
+.head {
+    text-align: left;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: rgb(20, 19, 22);
+    font-size: 20px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+.menu {
+    position: absolute;
+     top: 8px;
+    right: 16px;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+ .h2tag {
+    font-weight: lighter;
+    padding-left: 50px;
+ }
+ h1 {
+    font-size: 50px;
+ }
+
+ ul {
+   text-align: center;
+   list-style-type: none;
+   
+ }
+ #intro {
+    padding-left: 30px;
+ }
+ .aboutme {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 50%;
+    display: table;
+ }
+
+ #image img {
+    width: 250px;
+   border-radius: 20px;
+ }
+
+ #image {
+    text-align: right;
+    margin-right: 90px;
+    position: absolute;
+     top: 150px;
+    right: 16px;
+    border: #18191a solid 2px;
+    
+ }
+
+ .img  {
+    width: 10px;
+    text-align: center;
+    padding-left: 150px;
+    border-radius: 8px;
+ }
+ .img1 {
+    width: 80px;
+    text-align: center;
+    padding-left: 60px;
+ }
+#skills {
+   text-align: center;
+   font-family: Brush Script MT;
+   padding: 20px;
+   font-style: italic;
+   font-size: 60px;
+   background-color: rgb(27, 82, 94);
+   border: black solid 2px;
+   border-radius: 8px;
+   
+}
+
+.certificate {
+   text-align: center;
+   font-family: Brush Script MT;
+   padding: 10px;
+   font-style: italic;
+   font-size: 60px;
+   background-color: rgb(27, 82, 94);
+   border: black solid 2px;
+   border-radius: 8px;
+}
+
+.skill {
+   text-align: center;
+   padding-left: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skillImg {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  
+}
+.contact {
+   text-align: center;
+   color: white;
+}
+
+.footer {
+   background-color:  rgb(139, 225, 233);
+   height: 40%;
+   padding-top: 5px;
+  
+   padding-bottom: 5px;
+   color: black;
+   text-align: center;
+   justify-content: center;
+}
+.footer-content text-center {
+   text-align: center;
+   color: black;
+}
+
+.contactLink {
+  color: #3a994b;
+}
+
+.contactLink:hover {
+  color: #a21313;
+}
+img {
+   padding: 20px;
+}
+
+.fa {
+   padding: 10px;
+   font-size: 50px;
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+   margin: 10px;
+ }
+/* Facebook */
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ 
+ /* github */
+ .fa-github {
+   background: #18191a;
+   color: white;
+ } 
+
+ .fa-linkedin {
+   background: #55ACEE;
+   color: white;
+ } 
+
+ .fa-envelope {
+   background: white;
+   color: #a21313;
+   
+ } 
+
+
+ .Project,.Resume,.contact {
+   text-align: center;
+   font-family: Brush Script MT;
+   padding: 20px;
+   font-style: italic;
+   font-size: 60px;
+   background-color: rgb(27, 82, 94);
+   border: black solid 2px;
+   border-radius: 8px;
+ }
+
+ .logos {
+   text-align: center;
+   
+ }
+
+ a {
+   color: aliceblue;
+ }
+
+ li {
+   font-size: larger;
+ }
+
+ #skillImg {
+   width: 20%;
+   margin-top: 0%;
+ }
+
+ 
+ /* CSS */
+ .button-51 {
+   background-color: transparent;
+   border: 2px solid black;
+   box-sizing: border-box;
+   color: #00132C;
+   font-family: "Avenir Next LT W01 Bold",sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   padding: 16px 23px;
+   position: relative;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .button-51:hover,
+ .button-51:active {
+   outline: 0;
+ }
+ 
+ .button-51:hover {
+   background-color: transparent;
+   cursor: pointer;
+ }
+ 
+ .button-51:before {
+   background-color: #D5EDF6;
+   content: "";
+   height: calc(100% + 3px);
+   position: absolute;
+   right: -7px;
+   top: -9px;
+   transition: background-color 300ms ease-in;
+   width: 100%;
+   z-index: -1;
+ }
+ 
+ .button-51:hover:before {
+   background-color: #6DCFF6;
+ }
+ 
+ @media (min-width: 768px) {
+   .button-51 {
+     padding: 16px 32px;
+   }
+ }
+
+ .github {
+   font-size: larger;
+   color: darkblue;
+ }
+
+ .github:hover {
+  color: #a21313;
+ }
+
+ .p2 {
+  text-align: left;
+ }
+
+ .resDown {
+  color: black;
+  
+ }
+
+ .resDown:hover {
+  color: #a21313;
+ }
